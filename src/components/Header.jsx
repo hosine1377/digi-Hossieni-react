@@ -4,6 +4,7 @@ import Links from './HeaderComponents/Links'
 import MobileMenu from './HeaderComponents/MobileMenu'
 import SearchProducts from './HeaderComponents/SearchProducts'
 import SiteLogo from './HeaderComponents/SiteLogo'
+import SubmitButton from './HeaderComponents/SubmitButton'
 import ThemeButton from './HeaderComponents/ThemeButton'
 
 function Header() {
@@ -28,7 +29,7 @@ function Header() {
             <SiteLogo />
           </div>
           <ThemeButton />
-          user Account
+          <SubmitButton />
           <div className="hidden lg:flex">
             <CartButton />
           </div>
