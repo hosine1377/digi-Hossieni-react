@@ -6,7 +6,10 @@ function MobileMenu() {
   const [show, setShow] = useState(false)
   return (
     <>
-      <AiOutlineMenu className="text-2xl" onClick={() => setShow(true)} />
+      <AiOutlineMenu
+        className="text-2xl cursor-pointer"
+        onClick={() => setShow(true)}
+      />
       {/* It darkens the background */}
       <div
         className={`fixed left-0 top-0 z-[160] h-screen w-screen bg-slate-700 opacity-40  ${
